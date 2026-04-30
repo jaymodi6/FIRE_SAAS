@@ -1,7 +1,6 @@
 [build]
-  base = "fire-saas"
   command = "npm run build"
-  publish = "fire-saas/.next"
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
